@@ -1,0 +1,105 @@
+
+@import url('https://fonts.googleapis.com/css2?family=BJCree:wght@400;500;600;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Playwrite+NZ+Guides&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+Ol+Chiki&display=swap');
+
+@keyframes rainbow {
+  0% { filter: hue-rotate(0deg); color: white; background-color: black; }
+  50% { filter: hue-rotate(180deg); color: white; background-color: white; }
+  100% { filter: hue-rotate(360deg); color: orange; background-color: purple; }
+}
+@keyframes horrid {
+  0% { filter: hue-rotate(0deg); color: white; background-color: black; }
+  50% { filter: hue-rotate(180deg); color: blue; background-color: yellow; }
+  100% { filter: hue-rotate(360deg); color: red; background-color: green; }
+}
+@keyframes yellow {
+  0% { color: #f5c518; background-color: black; opacity: 0.5; }
+  50% { color: white; background-color: black; opacity: 0; }
+  100% { color: black; background-color: #f5c518; opacity: 1; }
+}
+
+div {
+  padding: 10px;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    background-color: rainbow;
+    padding: 20px;
+}
+
+.bodyShadow {
+    font-family: 'Times New Roman', Times, serif;
+    text-shadow: 2px 2px 12px grey;
+}
+
+.bodyRainbow {
+    font-family: 'Times New Roman', Times, serif;
+    animation: rainbow 10s linear alternate infinite;
+    color: red;
+    background-color: skyblue;
+}
+
+.bodyHorrid {
+    font-family: 'Playwrite NZ Guides', cursive;
+    animation: horrid 5s linear alternate infinite;
+    color: red;
+    background-color: skyblue;
+}
+
+ul {
+  animation: yellow 2s alternate infinite;
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+}
+
+ul li a {
+  display: block;
+  text-align: center;
+  padding: 14px 16px;
+}
+
+.ulMain {
+    list-style-type: none;
+    margin: 5px;
+    padding: 5px;
+    background-color: black;
+    position: sticky;
+    top: 0;
+    display: flex;
+    border: 1px solid #e7e7e7;
+    background-color: #f3f3f3;
+}
+
+.sideshow {
+    position: absolute;
+    top: 72%;
+    left: 66%;
+    transform: translate(-50%, -50%);
+    font-size: 24px;
+    animation: rainbow 5s linear alternate infinite;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+}
+
+.clippyCloppy {
+    position: absolute;
+    top: 32%;
+    left: 88%;
+    transform: translate(-50%, -50%);
+    /* font-family: 'BJCree', serif;  */
+    font-family: 'Playwrite NZ Guides', cursive;
+    font-size: 48px;
+    animation: horrid 3s linear alternate infinite;
+    text-shadow: 4px 4px 8px rgba(0, 0, 0, 0.7);
+}
+
+.flogoo {
+    font-family: 'Noto Sans Ol Chiki', sans-serif;
+    font-size: 48px;
+    animation: horrid 3s linear alternate infinite;
+    text-shadow: 4px 4px 8px rgba(0, 0, 0, 0.7);
+}

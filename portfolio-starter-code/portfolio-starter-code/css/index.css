@@ -1,0 +1,75 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Datatype:wght@100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Datatype:wght@100..900&family=Rock+Salt&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Datatype:wght@100..900&display=swap');
+/* Add your CSS here to style the photography portfolio*/
+
+/* Go here to get fonts: https://fonts.google.com/*/
+/* Select a font, and copy it's @import statement. Paste at the top of this file.*/
+/* .rock-salt-regular {
+  font-family: "Rock Salt", cursive;
+  font-weight: 400;
+  font-style: normal;
+}
+.bebas-neue-regular {
+  font-family: "Bebas Neue", cursive;
+  font-weight: 400;
+  font-style: normal;
+}
+.datatype-blahg {
+  font-family: "Datatype", monospace;
+  font-optical-sizing: auto;
+  font-weight: 100;
+  font-style: normal;
+  font-variation-settings:
+    "wdth" 100;
+} */
+h1 {
+  font-family: "Rock Salt", cursive;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 5em;
+  text-align: center;
+  margin-bottom: 0;
+}
+h2 {
+  font-family: "Datatype", monospace;
+  font-weight: 400;
+  font-style: normal;
+  text-align: center;
+  margin-bottom: 0;
+}
+nav {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    text-align: center;
+    font-family: "Bebas Neue", cursive;
+    /* height: 100px; */
+    margin: 50px;
+}
+nav a {
+    text-decoration: underline;
+    color: black;
+    padding: 10px;
+    border: 1px solid black;
+    font-size: 2em;
+}
+#img-container{
+    max-height: 1500px;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    gap: 15px;
+    align-content: center;
+    margin: 50px;
+
+}
+img {
+    max-width: 250px;
+    
+}
+footer {
+    text-align: center;
+    font-family: "Datatype", monospace;
+}
+/* Flexbox cheat sheet: https://flexbox.malven.co/*/
