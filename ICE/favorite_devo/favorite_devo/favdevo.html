@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>My Favorite Devotionals</title>
+  <link rel="stylesheet" href="styles/styles.css" />
+</head>
+<body>
+  <div class="container">
+    <header class="header">
+      <div class="header-image">
+        <h1>My FavoriteDevotionals</h1>
+      </div>
+    </header>
+    <main>
+      <div class="content-box">
+        <!-- Add your devotional content here -->
+        <table class="devotional-table">
+          <tr class="table-header">
+            <th class="speaker">Speaker</th>
+            <th class="title">Title</th>
+            <th class="location">Location</th>
+            <th class="year">Year</th>
+          </tr>
+          <tr class="table-row">
+            <td>Trent Shippen</td>
+            <td>Become Legendary</td>
+            <td>BYUI Center</td>
+            <td>2026</td>
+          </tr>
+        </table>
+        <h1>Submit your favorite devotional!</h1>
+        <form class="devotional-form">
+          <label for="speaker">Speaker:</label>
+          <label for="title">Title:</label>
+          <label for="location">Location:</label>
+          <label for="year">Year:</label>
+          <input type="text" id="speaker" name="speaker">
+          <input type="text" id="title" name="title">
+          <input type="text" id="location" name="location">
+          <input type="text" id="year" name="year">
+        </form>
+      </div>
+    </main>
+  </div>
+</body>
+</html>
