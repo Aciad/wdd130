@@ -1,7 +1,8 @@
 @import url('https://fonts.googleapis.com/css2?family=Foldit:wght@100..900&family=MuseoModerno:ital,wght@0,100..900;1,100..900&display=swap');
+
 root {
-    --head-font: 'Foldit', sans-serif;
-    --body-font: 'MuseoModerno', sans-serif;
+    --head-font: "Foldit", sans-serif;
+    --body-font: "MuseoModerno", sans-serif;
 }
 
 
@@ -88,4 +89,24 @@ p {
 }
 .hero > p {
     grid-column: 2 / 3;
+}
+.hero-2 {
+    width: 85%;
+    place-self: center;
+    background-color: #044389;
+}
+.content-report {
+    width: 90%;
+    font-family: var(--body-font);
+}
+.content-report h2 {
+    font-family: var(--head-font);
+    font-size: 2rem;
+}
+.content-report p {
+    font-size: 1.2rem;
+}
+.conent-report h1 {
+    font-family: var(--head-font);
+    font-size: 2.5rem;
 }
