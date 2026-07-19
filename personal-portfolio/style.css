@@ -1,7 +1,7 @@
-@import url('https://fonts.googleapis.com/css2?family=Foldit:wght@100..900&family=MuseoModerno:ital,wght@0,100..900;1,100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=MuseoModerno:ital,wght@0,100..900;1,100..900&family=Science+Gothic:wght@100..900&display=swap');
 
 root {
-    --head-font: "Foldit", sans-serif;
+    --head-font: "Science Gothic", sans-serif;
     --body-font: "MuseoModerno", sans-serif;
 }
 
@@ -43,6 +43,8 @@ ul {
     margin: 0;
     padding: 0;
     overflow: hidden;
+    font-family: "Science Gothic", sans-serif;
+    font-size: .75em;
     /* display: flex;
     flex-direction: row;
     align-content: center;
@@ -98,18 +100,30 @@ p {
 }
 .content-report {
     width: 90%;
-    font-family: var(--body-font);
 }
 .content-report h2 {
-    font-family: var(--head-font);
+    font-family: "Science Gothic", sans-serif;
     font-size: 2rem;
 }
 .content-report p {
     font-size: 1.2rem;
+    font-family: "MuseoModerno", sans-serif;
 }
-.conent-report h1 {
-    font-family: var(--head-font);
-    font-size: 2.5rem;
+.content-report h1 {
+    font-family: "Science Gothic", sans-serif;;
+    font-size: 3em;
+    text-align: center;
+    
+}
+.content-report a {
+    font-size: 0.75em;
+}
+.Developer-Report {
+    padding-top: 50px;
+}
+.General-Report {
+    padding-top: 50px;
+    padding-bottom: 100px;
 }
 
 .footer {
